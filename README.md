@@ -13,4 +13,6 @@ create form with 2 input box
 2. input box name = kode_keamanan
 3. submit button
 
-Don't forget to subscribe my youtube channel https://youtube.com/kholisvirologist
+# social media
+youtube https://youtube.com/kholisvirologist
+facebook https://facebook.com/kholisvirologist
