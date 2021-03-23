@@ -2,16 +2,16 @@
 	<head>
 	
 		<?php
-			require("routeros_api.class.php");				  // mikrotik api php class
+			require("routeros_api.class.php");					// mikrotik api php class
 			$API 				= new routeros_api();
 			$API->debug 		= false;
-			$user_mikrotik  	= "api-test";					    // mikrotik user
-			$password_mikrotik  = "api-test";					  // mikrotik password
-			$ip_mikrotik    	= "192.168.10.1";				  // mikrotik IP address
+			$user_mikrotik  	= "api-test";					// mikrotik user
+			$password_mikrotik  = "api-test";					// mikrotik password
+			$ip_mikrotik    	= "192.168.10.1";				// mikrotik IP address
 			
 			// set variable data
-			$username 		= $_POST['username'];				  // get data from post form
-			$kode_keamanan 	= $_POST['kode_keamanan'];  // get data from post form
+			$username 		= $_POST['username'];				// get data from post form
+			$kode_keamanan 	= $_POST['kode_keamanan'];			// get data from post form
 			$key			= "$kode_keamanan@omdrakula.net";	// because key saved in email field, so we must add valid email format.
 		?>
 		
