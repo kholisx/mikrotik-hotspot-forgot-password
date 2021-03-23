@@ -7,4 +7,10 @@ If you have a customer and he forgets the password, he can get the password agai
 2. Web Server PHP
 3. Form with 2 input box
 
+# Form with 2 input box
+create form with 2 input box
+1. input box name = username
+2. input box name = kode_keamanan
+3. submit button
+
 Don't forget to subscribe my youtube channel https://youtube.com/kholisvirologist
